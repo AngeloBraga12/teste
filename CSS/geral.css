@@ -24,15 +24,12 @@
 
 html {
   font-size: 62.5%;
-  margin-top: 16rem;
   padding-bottom: 15rem;
+  margin-top: 12rem;
 }
 
 body {
-  max-width: 1200px;
-  margin: 0 auto;
   background-color: var(--bg);
-  scroll-behavior: smooth;
 }
 main{
   padding: 0 4rem;
@@ -90,7 +87,6 @@ nav a::after{
   height: 2px;
   background-color: var(--cinza_metal);
   transition: 0.25s;
-  margin-right: auto;
 }
 nav a:hover::after {
   width: 100%;
